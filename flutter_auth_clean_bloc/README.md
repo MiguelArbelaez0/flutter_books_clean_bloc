@@ -1,16 +1,24 @@
-# flutter_auth_clean_bloc
+# Flutter Books Clean BLoC
 
-A new Flutter project.
+**Flutter Books Clean BLoC** es una aplicación de gestión y búsqueda de libros, desarrollada con **Arquitectura Limpia (Clean Architecture)** y el patrón **BLoC**, que combina una interfaz reactiva con funcionalidades avanzadas y persistencia local.
 
-## Getting Started
+## Funcionalidades principales
 
-This project is a starting point for a Flutter application.
+- **Búsqueda de libros** a través de la API de [Open Library](http://openlibrary.org/)  
+- **Visualización de información completa** de cada libro: título, autor, fecha de publicación, descripción y más.  
+- **Guardar libros favoritos** localmente mediante **Shared Preferences**, con posibilidad de eliminar.  
+- **Pestaña de libros guardados** para consultar rápidamente tus favoritos.  
+- **Gestión de “Me gusta”**: puedes marcar y desmarcar libros que te interesen.  
+- Interfaz **reactiva** y escalable gracias a **BLoC** y streams.  
 
-A few resources to get you started if this is your first Flutter project:
+## Notas técnicas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **API utilizada:** [Open Library](http://openlibrary.org/)  
+- **Arquitectura:** Clean Architecture + BLoC  
+- **Persistencia local:** Shared Preferences  
+- **Lenguaje y framework:** Flutter  
+- **Versión de Flutter utilizada:** 3.86.6  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Resumen
+
+Esta aplicación demuestra buenas prácticas en Flutter, manejo de **APIs**, arquitectura limpia y BLoC, y persistencia local de datos. Es ideal para mostrar habilidades profesionales en **desarrollo de aplicaciones móviles** y gestión de estado avanzada.
